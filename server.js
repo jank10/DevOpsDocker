@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-	res.send('Hello FS2024 DevOps Course! :-) Jan Küchli hat Anpassungen am Code gemacht.');
+	res.send('Hello FS2024 DevOps Course! :-) Halli Hallo das ist der letzte Test dieses Lernjournals.');
 });
 
 app.listen(PORT, HOST);
